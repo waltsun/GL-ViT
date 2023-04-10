@@ -42,7 +42,11 @@ Image classification is a classical machine learning task and has been widely us
 
 #### Datasets
 
-Experiments are conducted on mini-ImageNet and CUB, which can be downloaded following instructions from [FRN](https://github.com/Tsingularity/FRN).
+Experiments are conducted on mini-ImageNet and CUB.
+
+The mini-ImageNet dataset is processed following [mini-ImageNet tools](https://github.com/yaoyao-liu/mini-imagenet-tools). Processed data files are available at [download page](https://mtl.yyliu.net/download/).
+
+The CUB dataset is proposed by [Wah et al.](http://www.vision.caltech.edu/datasets/cub_200_2011/). We follow the split of [FRN](https://github.com/Tsingularity/FRN), and data file is available at [CUB_fewshot_raw.tar](https://drive.google.com/file/d/10GV9XJYyNL1uzuC04s9fANsQDz9LEj4f).
 
 #### Pretrained ViT parameters
 
